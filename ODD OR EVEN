@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main ()
+{
+ int a,s;
+ printf("ENTER THE NUMBER TO CHEK WEATHER IT IS ODD OR EVEN = ");
+ scanf("%d",&a);
+ s=a%2;
+ if(s==0)
+ printf("THE ENTERED NUMBER IS EVEN");
+ else
+ printf("THE ENTERED NUMBER IS ODD");
+ return 0;
+}
